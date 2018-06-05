@@ -54,6 +54,7 @@ def get_exchange_list():
         exchanges_list = [
             {u'website': u'https://www.binance.com/', u'name': u'\u5e01\u5b89', u'meta': u'[{"desc": "Access Key", "required": true, "type": "string", "name": "AccessKey", "label": "Access Key"}, {"encrypt": true, "name": "SecretKey", "required": true, "label": "Secret Key", "type": "password", "desc": "Secret Key"}]', u'eid': u'Binance', u'logo': u'binance.png', u'stocks': u'LTC_BTC,ETH_BTC,WTC_BTC', u'id': 0},
             {u'website': u'https://www.okex.com/', u'name': u'OKEX', u'meta': u'[{"desc": "Access Key", "required": true, "type": "string", "name": "AccessKey", "label": "Access Key"}, {"encrypt": true, "name": "SecretKey", "required": true, "label": "Secret Key", "type": "password", "desc": "Secret Key"}]', u'eid': u'OKEX', u'logo': u'okex.png', u'stocks': u'LTC_BTC,ETH_BTC,WTC_BTC', u'id': 1},
+            {u'website': u'https://www.huobipro.com/', u'name': u'Huobi Pro', u'meta': u'[{"desc": "Access Key", "required": true, "type": "string", "name": "AccessKey", "label": "Access Key"}, {"encrypt": true, "name": "SecretKey", "required": true, "label": "Secret Key", "type": "password", "desc": "Secret Key"}]', u'eid': u'OKEX', u'logo': u'okex.png', u'stocks': u'LTC_BTC,ETH_BTC,WTC_BTC', u'id': 1},
         ]
         print ' * Initialize %d exchanges' % (len(exchanges_list), )
     return exchanges_list
